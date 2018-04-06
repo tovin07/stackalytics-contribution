@@ -19,7 +19,7 @@ For fashion purpose, I will change configuration file to YAML format (j/k).
 ## Run, run, run
 
 ```bash
-python contribution.py
+python main.py
 ```
 
 ### Output
