@@ -107,8 +107,8 @@ def main():
     # Un-comment this if you do not want to print
     print(output_string)
 
-    # Un-comment this if you do not want to write to file
-    write_to_markdown(output_string, remaining_weeks)
+    # Un-comment this if you want to write to file
+    # write_to_markdown(output_string, remaining_weeks)
 
 
 if __name__ == '__main__':
