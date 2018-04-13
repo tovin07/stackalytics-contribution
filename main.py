@@ -65,7 +65,7 @@ def write_to_markdown(output_string, remaining_weeks):
         markdown.write(output_string)
 
 
-def main():
+def generate_data_table():
     passed, remaining_weeks = calculate_passed_time()
     team_rows = []
     member_rows = []
@@ -102,6 +102,11 @@ def main():
     ]
     team_table = create_table(team_rows, con.TEAM_HEADERS)
 
+    return team_table, member_table
+
+
+def main():
+    team_table, member_table = generate_data_table()
     output_string = create_output_string(team_table, member_table)
 
     # Un-comment this if you do not want to print
@@ -113,31 +118,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# Sample response
-# {
-#     "contribution": {
-#         "loc": 2,
-#         "email_count": 0,
-#         "commit_count": 1,
-#         "translations": 0,
-#         "drafted_blueprint_count": 0,
-#         "abandoned_change_requests_count": 0,
-#         "filed_bug_count": 1,
-#         "patch_set_count": 1,
-#         "completed_blueprint_count": 0,
-#         "marks": {
-#             "A": 0,
-#             "WIP": 0,
-#             "1": 0,
-#             "0": 0,
-#             "s": 0,
-#             "2": 0,
-#             "-1": 0,
-#             "-2": 0,
-#             "x": 1
-#         },
-#         "resolved_bug_count": 0,
-#         "change_request_count": 0
-#     }
-# }

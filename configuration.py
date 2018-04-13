@@ -37,7 +37,7 @@ TEAM_HEADERS = [
     'Actual remain',            # = Target - Actual
     'Target to date',           # = Target to date
     'Target to date remain',    # = Target - Target to date
-    'Actual to date remain',    # = Target to date - Actual
+    'Behind schedule',    # = Target to date - Actual
 ]
 
 # Table headers for detail team member's contribution
@@ -50,5 +50,5 @@ MEMBER_HEADERS = [
     'Actual remain',            # = Target - Actual
     'Target to date',           # = Target to date
     'Target to date remain',    # = Target - Target to date
-    'Actual to date remain',    # = Target to date - Actual
+    'Behind schedule',    # = Target to date - Actual
 ]
