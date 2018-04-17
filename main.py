@@ -4,7 +4,7 @@ from dateutil import rrule
 import requests
 import tabulate
 
-import configuration as con
+from . import configuration as con
 
 
 def week_diff(start, until):
