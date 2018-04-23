@@ -66,7 +66,7 @@ def write_to_markdown(output_string, remaining_weeks):
 
 
 def generate_data_table():
-    passed, remaining_weeks = calculate_passed_time()
+    passed, _ = calculate_passed_time()
     team_rows = []
     member_rows = []
 
