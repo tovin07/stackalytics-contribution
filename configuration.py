@@ -20,11 +20,13 @@ TEAM_TARGET = {
 # Member information and commit/review target for each member
 MEMBERS = [
     # Format: user id, member name, target commit, target review
+    {'user_id': 'duonghq', 'name': 'Duong', 'commit': 43, 'review': 205},
+    {'user_id': 'namnh', 'name': 'Nam', 'commit': 43, 'review': 205},
+    {'user_id': 'tovin07', 'name': 'Vinh', 'commit': 43, 'review': 206},
+    {'user_id': 'donghm', 'name': 'Dong', 'commit': 0, 'review': 0},
+    {'user_id': 'ducnv95', 'name': 'Duc', 'commit': 0, 'review': 0},
     {'user_id': 'kiennt2609', 'name': 'Kien', 'commit': 0, 'review': 0},
     {'user_id': 'daidv', 'name': 'Dai', 'commit': 0, 'review': 0},
-    {'user_id': 'namnh', 'name': 'Nam', 'commit': 43, 'review': 205},
-    {'user_id': 'duonghq', 'name': 'Duong', 'commit': 43, 'review': 205},
-    {'user_id': 'tovin07', 'name': 'Vinh', 'commit': 43, 'review': 206},
 ]
 
 # Table headers for team contribution summary
